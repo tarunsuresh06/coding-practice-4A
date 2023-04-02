@@ -1,0 +1,27 @@
+GET http://localhost:3000/players/
+
+###
+
+GET http://localhost:3000/players/1/
+
+###
+
+POST http://localhost:3000/players/
+Content-Type: application/json
+
+{
+    "playerName": "TommY",
+    "jerseyNumber": 06,
+    "role": "Batsman"
+}
+
+###
+
+PUT http://localhost:3000/players/2/
+Content-Type: application/json
+
+{
+    "playerName": "TommY",
+    "jerseyNumber": 06,
+    "role": "Batsman"
+}
